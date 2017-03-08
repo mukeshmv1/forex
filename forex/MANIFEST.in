@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include forex *.css
+recursive-include forex *.csv
+recursive-include forex *.html
+recursive-include forex *.ico
+recursive-include forex *.js
+recursive-include forex *.json
+recursive-include forex *.md
+recursive-include forex *.png
+recursive-include forex *.py
+recursive-include forex *.svg
+recursive-include forex *.txt
+recursive-exclude forex *.pyc
